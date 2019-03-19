@@ -4,6 +4,10 @@ import org.apache.commons.lang3.ArrayUtils;
 import java.lang.reflect.Field;
 import java.util.*;
 
+/**
+ * 将Map中的属性值转换至对象Object中
+ * 转换规则为：Map中的key是新对象的属性名，Map中的value是新对象中的属性值
+ */
 public class MapUtil {
     /**
      * 将map转换为object，转换全部属性（按照key和对象属性之间的关系进行转换）
